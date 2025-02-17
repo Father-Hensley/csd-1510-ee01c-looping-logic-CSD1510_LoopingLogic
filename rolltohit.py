@@ -3,3 +3,4 @@
 #Roll the correct number of dice, then display the results
 #This is a guided practice. Either follow with the video or your instructor will
 #go over this in class.
+#Video Link: https://youtu.be/89G5DN0-O3k
