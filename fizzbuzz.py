@@ -6,10 +6,14 @@
 #Each output is on it's own line
 #Also include in your repo a .drawio file that flowcharts out the logic
 
-#Here is a section of sample output:
-#Buzz
-#11
-#Fizz
-#13
-#14
-#FizzBuzz
+print("We are going to run through #s 1-25 to find any multiples of 3, 5 or both.")
+
+for i in range(1,26):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i) 
