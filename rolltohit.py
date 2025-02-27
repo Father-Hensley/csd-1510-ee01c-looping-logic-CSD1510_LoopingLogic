@@ -19,8 +19,12 @@ diceRoll = 0
 
 for i in range(diceCount):
     diceRoll = random.randint(1,20)
-    #print(f"Roll is {diceRoll}")
+        #print(f"Roll is {diceRoll}")
     if diceRoll >= hitTarget:
         hitCount += 1
+    while i > {diceRoll}:
+        print(i)
 
 print(f"You rolled {diceCount} dice with a hit target of {hitTarget} and hit {hitCount} times.")
+print("Would you like to try again? ")
+
